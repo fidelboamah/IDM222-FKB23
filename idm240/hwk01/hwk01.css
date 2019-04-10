@@ -1,0 +1,145 @@
+font-family: 'Erica One', cursive;
+font-family: 'Open Sans', sans-serif;
+@media screen and (min-width: 320px){}
+
+    body {
+    background-color: white;
+    color: #1a1a1a;   
+}
+
+#image img {
+    padding-top: 2rem;
+    width: 100%;
+}
+
+#image {
+    margin: 0 auto;
+    width: 300px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.stock img {
+    width: 50%;
+    height: 75%;
+}
+
+h1, h2, h3 {
+    font-family: 'Bowlby One SC';
+    font: 1.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.stock {
+    padding: 0 1rem;
+    margin: 0 auto;
+    display: block;
+    flex-wrap: wrap;
+}
+
+h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font: 1.5em;
+    padding-left: 1em;
+    padding-left: 1em;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font: 1.5em;
+    padding-left: 1em;
+    padding-left: 1em; 
+}
+
+/* Tablet */
+@media screen and (min-width: 768px){
+
+    body {
+    background-color:purple;
+    color: white;
+    
+}
+
+#wrapper{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 500px 500px;
+    grid-template-areas: 'one two'
+                         'three three';
+}
+
+#image {
+    position: absolute;
+    left: 40px;
+    margin-left: 2rem;
+    transform: rotate(0deg);
+    margin: 0 0;
+    grid-area: one;
+}
+
+#text {
+    grid-area: two;
+
+}
+
+.stock{
+    grid-area: three;
+    display: flex;
+    flex: wrap;
+}
+
+p {
+    font-size: 1em;
+}
+
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px){
+
+    body {
+    background-color: orange;
+    color: black;
+    
+}
+#wrapper{
+    display: grid;
+    grid-template-columns: 320px 2fr;
+    grid-template-rows: 500px;
+    grid-template-areas: 'pic txt'
+                         'pic pics';
+    margin: auto;
+    max-width: 800px;
+}
+
+#image {
+    position: static;
+    transform: rotate(0deg);
+    grid-area: pic;
+}
+
+p {
+    font-size: 1em;
+    text-align: justify;
+}
+    
+#text{
+    max-width: 640px;
+    grid-area: txt;
+    align-items: center;
+}
+
+.stock{
+    margin: 0 auto;
+    grid-area: pics;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+}
+
+@media screen and (max-width: 1280px){
+}
