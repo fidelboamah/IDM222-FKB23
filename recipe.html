@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="js/modernizr.custom.js"></script>
+    <title>Big Sam's Kitchen</title>
+</head>
+
+<body>
+    <div class="container">
+        <ul id="gn-menu" class="gn-menu-main" style="
+        z-index: 10;">
+            <li class="gn-trigger">
+                <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+                <nav class="gn-menu-wrapper">
+                    <div class="gn-scroller">
+                        <ul class="gn-menu">
+                                <li><a class="ok" href="menu.html"><i class="fas fa-book-open"></i> &#160;&#160;&#160;&#160;&#160;&#160;On the Menu</a></li>
+                                <li><a class="ok" href="help.html"><i class="fas fa-question-circle"></i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Help</a></li>
+                                <li><a class="ok" href="no-results.html"><i class="fas fa-times"></i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No results page</a></li>
+                                <li><a class="ok" href="https://phidelele.herokuapp.com/" target="_blank"><i class="fas fa-male"></i> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Who made this page?</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </li>
+            <li><a href="index.html">Big Sam's Kitchen</a></li>
+        </ul>
+
+        <div class="recipe-wrapper">
+                <button onclick="goBack()">Go Back</button>
+
+                <script>
+                function goBack() {
+                  window.history.back();
+                }
+                </script>
+            <div class="recipe">
+                <div id="meal-pic">
+                    <img src="hm.jpg" alt="meal" style="width: 100%;">
+                </div>
+                <div id="meal-desc">
+                    <h1 id="m-title">Mexican-Spiced Pork Chops</h1>
+                        <div class="details">
+                            <i class="d far fa-clock"></i> <p>30 mins</p>
+                            <i class="d fas fa-utensils"></i> <p>2 people</p>
+                            <i class="d fas fa-burn"></i> <p> 500 calories</p>
+                        </div>
+                    <p id="m-desc"> These pork chops get zesty Mexican-style flair from a blend of spices like ancho chile powder, paprika, and cumin used to coat them before cooking. They’re the perfect match for the vibrant flavors in our hearty barley side, which highlights sweet sautéed peppers, juicy tomatoes, and our smoky tomatillo-poblano sauce.</p>
+                </div>
+            </div>
+
+            <div class="ingredients">
+                <h1>Ingredients</h1>
+                <div class="ing-inner">
+                <img src="ing.jpg" alt="ingredients">
+                    <div class="ind-ing">
+                        <li>2 Boneless, Center-Cut Pork Chops </li>
+                        <li>½ cup Pearled Barley</li>
+                        <li>2 cloves Garlic</li>
+                        <li>2 Scallions</li>
+                        <li>4 oz Grape Or Cherry Tomatoes</li>
+                        <li>4 oz Sweet Peppers</li>
+                        <li>⅓ cup Tomatillo-Poblano Sauce</li>
+                        <li>2 Tbsps Grated Cotija Cheese</li>
+                        <li>1 Tbsp Mexican Spice Blend <br>(Ancho Chile Powder, Smoked Paprika, Garlic Powder, Ground Cumin & Dried Mexican Oregano)</li>
+                    </div>
+                </div>
+            </div>
+
+            <div id="process-title">
+            <h1>Process</h1>
+            </div>
+            
+            <div class="process">
+                <div class="steps-format">
+                <div class="img-4-pro">
+                    <img src="uno.jpg" alt="meal">
+                </div>
+                <div class="steps">
+                    <span class="step-num">1</span>
+                    <span class="step-title"><b>Cook the barley:</b></span>
+                </div>
+                <p class="instructions">
+                    Fill a large pot with salted water; cover and heat to boiling on high. Once boiling, add the barley. Cook, uncovered, 28 to 30 minutes, or until tender. Turn off the heat. Drain thoroughly and return to the pot.
+                </p>
+                </div>
+
+                <div class="steps-format">
+                        <div class="img-4-pro">
+                            <img src="dos.jpg" alt="meal">
+                        </div>
+                        <div class="steps">
+                            <span class="step-num">2</span>
+                            <span class="step-title"><b>Prepare the ingredients:</b></span>
+                        </div>
+                        <p class="instructions">
+                            While the barley cooks, wash and dry the fresh produce. Cut off and discard the stems of the peppers; remove the cores. Halve lengthwise, then thinly slice crosswise. Peel and roughly chop 2 cloves of garlic. Thinly slice the scallions, separating the white bottoms and hollow green tops. Halve the tomatoes; place in a medium bowl and season with salt and pepper. 
+                        </p>
+                </div>
+
+                <div class="steps-format">
+                        <div class="img-4-pro">
+                            <img src="tres.jpg" alt="meal">
+                        </div>
+                        <div class="steps">
+                            <span class="step-num">3</span>
+                            <span class="step-title"><b>Cook the peppers:</b></span>
+                        </div>
+                        <p class="instructions">
+                            While the barley continues to cook, in a medium pan (nonstick, if you have one), heat a drizzle of olive oil on medium-high until hot. Add the sliced peppers; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until slightly softened. Add the chopped garlic and sliced white bottoms of the scallions; season with salt and pepper. Cook, stirring occasionally, 1 to 2 minutes, or until softened. Transfer to the bowl of seasoned tomatoes. Wipe out the pan. 
+                        </p>
+                </div>
+
+                <div class="steps-format">
+                        <div class="img-4-pro">
+                            <img src="cua.jpg" alt="meal">
+                        </div>
+                        <div class="steps">
+                            <span class="step-num">4</span>
+                            <span class="step-title"><b>Cook the pork:</b></span>
+                        </div>
+                        <p class="instructions">
+                            Pat the pork dry with paper towels. Season on both sides with salt, pepper, and enough of the spice blend to coat (you may have extra). In the same pan, heat a drizzle of olive oil on medium-high until hot. Add the seasoned pork and cook 4 to 6 minutes per side, or until browned and cooked through. Transfer to a cutting board and let rest at least 5 minutes. 
+                        </p>
+                </div>
+
+                <div class="steps-format">
+                        <div class="img-4-pro">
+                            <img src="cin.jpg" alt="meal">
+                        </div>
+                        <div class="steps">
+                            <span class="step-num">5</span>
+                            <span class="step-title"><b>Finish the barley & serve your dish:</b></span>
+                        </div>
+                        <p class="instructions">
+                            To the pot of cooked barley, add the pepper-tomato mixture, tomatillo sauce, and a drizzle of olive oil. Season with salt and pepper and stir to combine. Slice the rested pork crosswise. Serve the sliced pork over the finished barley. Garnish with the cheese and sliced green tops of the scallions. Enjoy! 
+                        </p>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-wrapper">
+                <div class="address"> Accra Financial Centre,<br> 37 Independence Ave,<br> Accra, Ghana <br> <br>bigsamskitchen@gmail.com <br> +233 269447924 </div>
+                <div class="social-media" style="text-align: center;">
+                    <div class="social">
+                        Follow Us
+                        <br>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <p>&copy Big Sam's Kitchen, LLC 2019</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /container -->
+    <script src="js/classie.js "></script>
+    <script src="js/gnmenu.js "></script>
+    <script>
+        new gnMenu(document.getElementById('gn-menu'));
+    </script>
+</body>
+
+</html>
